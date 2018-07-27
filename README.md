@@ -5,7 +5,10 @@ as downloaded from http://dnaprodb.usc.edu. You can download the latest database
 
 ```wget http://dnaprodb.usc.edu/data/dnaprodb_1.0.7z```
 
-then unzip the database using whatever tools you prefer for doing so.
+then unzip the database using whatever tools you prefer for doing so. It's easiest to just extract the file that DNAProDB recommends on their website:
+
+```7z e dnaprodb_1.0.7z``` 
+Assuming that the downloaded file is in the current directory.
 
 # Dependencies
 `parse_and_run.py` currently relies upon keras and tensorflow to work correctly, and has only been tested with Python version 3.6.5.
